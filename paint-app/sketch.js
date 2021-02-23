@@ -78,9 +78,6 @@ function drawPaintScene() {
   sliderGreen.hide();
   sliderBlue.hide();
   sliderAlpha.hide();
-  if (happy != null) {
-    happy.hide();
-  }
   
   
   optionsMenu = false;
