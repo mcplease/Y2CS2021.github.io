@@ -49,7 +49,7 @@ function draw() {
 function drawOptionsMenu() {
   cnv = canvas;
   
-  
+  var a = happy != null ? happy : "Thick"
   slider.show();
   sliderRed.show();
   sliderGreen.show();
@@ -60,7 +60,7 @@ function drawOptionsMenu() {
   
   
   fill(0)
-  text("Thickness", 5, height - 25);
+  text(a, 5, height - 25);
   
   
   
