@@ -2,7 +2,7 @@
 var thickness = 10, colour = 'black', colours = ['red', 'green', 'blue'], index = 0, randomColour = false, optionsMenu = false, happy;
 
 function setup() {
-  canvas = createCanvas(400, 400);
+  canvas = createCanvas(canvasWidth, canvasHeight);
   background(220);
   textSize(20);
   textStyle(BOLD);
