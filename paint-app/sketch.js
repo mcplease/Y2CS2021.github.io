@@ -3,7 +3,6 @@ var thickness = 10, colour = 'black', colours = ['red', 'green', 'blue'], index 
 
 function setup() {
   canvas = createCanvas(canvasWidth, canvasHeight);
-  g.background(0);
   background(220);
   textSize(20);
   textStyle(BOLD);
