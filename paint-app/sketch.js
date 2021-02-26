@@ -88,9 +88,9 @@ function mouseDragged() {
   fill(colour);
   //ellipse(mouseX, mouseY, slider.value());
   stroke(0, 0, 0, colourAlpha);
-  strokeWeight(thickness.value);
+  strokeWeight(thickness);
   
-  console.log(thickness.value);
+  console.log(thickness);
   console.log(colourAlpha);
   line(pmouseX, pmouseY, mouseX, mouseY);
 }
