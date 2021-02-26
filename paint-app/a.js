@@ -4,7 +4,7 @@ var happy = "DIE";
 var optionsMenuShown = false;
 var thickness;
 
-thickness = document.getElementById('thickness-slider').value;
+thickness = document.getElementById('thickness-slider');
 
 
 
