@@ -87,7 +87,7 @@ function drawPaintScene() {
 function mouseDragged() {
   fill(colour);
   //ellipse(mouseX, mouseY, slider.value());
-  stroke(slider.value());
+  stroke(0, 0, 0, alpha);
   strokeWeight(thickness.value);
   line(pmouseX, pmouseY, mouseX, mouseY);
 }
