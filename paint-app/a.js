@@ -3,7 +3,7 @@ var canvasHeight = screen.height;
 var happy = "DIE";
 var optionsMenuShown = false;
 var thickness;
-var alpha;
+var colourAlpha;
 var colour;
 
 
@@ -16,7 +16,7 @@ function updateColoursValue(value) {
 }
 
 function updateAlphaValue(value) {
-    alpha = value;
+    colourAlpha = value;
 }
 
 function showOptionsMenu(value) {
