@@ -6,3 +6,9 @@ canvas {
   display: block;
   position: absolute;
 }
+
+options {
+  width: 10%;
+  height: 100%;
+  display: none;
+}
