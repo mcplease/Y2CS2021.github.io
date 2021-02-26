@@ -2,6 +2,11 @@ var canvasWidth = screen.width;
 var canvasHeight = screen.height;
 var happy = "DIE";
 var optionsMenuShown = false;
+var thickness;
+
+thickness = document.getElementById('thickness-slider').value;
+
+
 
 function showOptionsMenu(value) {
     var optionsMenu = document.getElementById('options');

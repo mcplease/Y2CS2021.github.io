@@ -88,6 +88,7 @@ function mouseDragged() {
   fill(colour);
   //ellipse(mouseX, mouseY, slider.value());
   stroke(slider.value());
+  strokeWeight(thickness);
   line(pmouseX, pmouseY, mouseX, mouseY);
 }
 
