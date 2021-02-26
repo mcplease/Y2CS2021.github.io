@@ -5,7 +5,7 @@ html, body {
 }
 canvas {
   display: block;
-  position: absolute;
+  position: fixed;
 }
 
 options {
@@ -14,6 +14,7 @@ options {
   display: none;
   z-index: 1;
   background-color: red;
+  position:fixed;
 }
 
 options-div {
